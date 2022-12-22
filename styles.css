@@ -1,0 +1,103 @@
+.image {
+    width:300px;
+    height:150px;
+}
+
+.img {
+    width:200px;
+}
+
+.header {
+    display:flex; 
+    border:5px solid red;
+}
+
+.header, #rightlink {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.stripe {
+    background-color:#1F2937;
+    position:absolute;
+    height:250px;
+    width:100%;
+    z-index:-1;
+}
+
+.top {
+    color:white;
+}
+
+#desc {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+.subtext {
+    width:80%;
+    font-size:18px;
+}
+
+.title {
+    font-size:40px;
+}
+
+#textonly {
+    border:5px solid green;
+    width:50%;
+}
+
+.container {
+    display:flex;
+    border:5px solid green;
+    justify-content:space-evenly;
+}
+
+.imgsubtext {
+    text-align:center;
+}
+
+#logo {
+    width:5%;
+}
+
+.quote {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:100px;
+    margin-top:25px;
+}
+
+
+.gon, .killua, .leorio, .kurapika {
+    border:5px solid #1F2937;
+    border-radius:25px;
+    height:150px;
+    width:auto;
+}
+
+#quotestripe {
+    background-color:#E5E7EB;
+    position:absolute;
+    height:100px;
+    width:100%;
+    z-index:-1;
+}
+
+#stripe3 {
+    background-color:#1F2937;
+    position:absolute;
+    height:80px;
+    width:100%;
+    z-index:-1;
+}
+
+.text {
+    text-align:center;
+    font-weight:bold;
+}
