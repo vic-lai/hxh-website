@@ -1,1 +1,1 @@
-Hunter x Hunter
+# Hunter x Hunter
