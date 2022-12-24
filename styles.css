@@ -35,7 +35,7 @@
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
-    margin-bottom:50px;
+    margin-bottom:60px;
 }
 
 .subtext {
@@ -72,10 +72,8 @@
 .quote {
     display:flex;
     justify-content:space-evenly;
-    margin-bottom:60px;
     align-items:center;
     margin-top:10px;
-
 }
 
 .quote-text {
@@ -123,7 +121,7 @@
     border:5px solid #3882F6;
     border-radius:10px;
     position:fixed;
-    bottom:20px;
+    bottom:25px;
 }
 
 .text {
@@ -151,7 +149,7 @@
     align-items:center;
     color:white;
     position:fixed;
-    bottom:30px;;
+    bottom:40px;
 }
 
 body {
