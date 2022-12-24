@@ -1,6 +1,7 @@
 .image {
     width:300px;
     height:150px;
+    margin-right:20%;
 }
 
 .img {
@@ -8,14 +9,15 @@
 }
 
 .header {
-    display:flex; 
-    border:5px solid red;
+    display:flex;
 }
 
 .header, #rightlink {
     display:flex;
     justify-content:space-between;
+    margin-top:20px;
 }
+
 
 .stripe {
     background-color:#1F2937;
@@ -31,7 +33,7 @@
 
 #desc {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap:wrap;
     margin-bottom:50px;
 }
@@ -43,11 +45,12 @@
 
 .title {
     font-size:40px;
+    font-weight:bold;
 }
 
 #textonly {
-    border:5px solid green;
     width:50%;
+    margin-left:2%;
 }
 
 .container {
@@ -58,10 +61,12 @@
 
 .imgsubtext {
     text-align:center;
+    font-weight:bold;
 }
 
 #logo {
     width:7%;
+    margin-left:50px;
 }
 
 .quote {
@@ -76,6 +81,15 @@
 .quote-text {
     display:flex;
     flex-direction:column;
+}
+
+#quotetext {
+    font-family: 'Parisienne', cursive;
+    font-size:40px;
+}
+
+.writer {
+    font-size:20px;
 }
 
 #netero {
@@ -116,6 +130,7 @@
     text-align:center;
     font-weight:bold;
     margin-bottom:20px;
+    font-size:30px;
 }
 
 #signup-button {
@@ -136,9 +151,23 @@
     align-items:center;
     color:white;
     position:fixed;
-    bottom:0;
+    bottom:10px;;
 }
 
 body {
     background-color: #b89e8a;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mal, #crunchyroll, #github {
+    width:40px;
+    height:40px;;
+    border:1px solid black;
+    border-radius:25px;
+    margin-right:20px;
+}
+
+* {
+    margin:0px;
+    padding:0px;
 }
